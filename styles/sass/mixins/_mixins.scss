@@ -1,0 +1,14 @@
+@import '../variables/variables';
+
+@mixin barlow-regular {
+    font-family: $barlow;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@mixin barlow-bold {
+    font-family: $barlow;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
